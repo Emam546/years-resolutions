@@ -2,6 +2,14 @@
   "name": "years-resolutions",
   "version": "0.1.0",
   "private": true,
+  "keywords": [
+    "New Year's resolutions",
+    "tracker",
+    "goal setting",
+    "Next.js",
+    "Tailwind CSS"
+  ],
+  "description": "Welcome to My New Year's Resolutions Tracker, a simple yet effective tool designed to help you stay accountable and motivated towards achieving your goals for the year ahead. This project, crafted with Next.js and Tailwind CSS, seamlessly integrates with an API to dynamically fetch and display your resolutions in a clean and organized manner.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,19 +17,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.6.8",
+    "i": "^0.3.7",
+    "next": "14.1.4",
+    "npm": "^10.5.1",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "typescript": "^5"
   }
 }
